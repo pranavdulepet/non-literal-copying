@@ -100,13 +100,6 @@ run_thematic_similarity_experiment(
 )
 ```
 
-## Key Findings
-
-Based on our experiments:
-- Average thematic similarity between source and generated texts: 0.06
-- High novelty and substantial divergence in lexical and stylistic features
-- Retention of semantic fidelity despite surface-level transformations
-
 ## Dependencies
 
 Key dependencies include:
