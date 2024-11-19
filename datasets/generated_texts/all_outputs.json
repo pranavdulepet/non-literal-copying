@@ -1,0 +1,92 @@
+[
+    {
+        "prompt_id": "1",
+        "prompt_text": "Summarize this text in 200 words: '_Walt Whitman has somewhere a fine and just distinction between \u201cloving\nby allowance\u201d and \u201cloving with personal love.\u201d This distinction applies\nto books as well as to men and women; and in the case of the not very\nnumerous authors who are the objects of the personal affection, it\nbrings a curious consequence with it. There is much more difference as\nto their best work than in the case of those others who are loved \u201cby\nallowance\u201d by convention, and because it is felt to be the right and\nproper th'",
+        "generated_text": "The text discusses Walt Whitman's concept of two types of love: 'loving by allowance' and 'loving with personal love.' This theory is applied not just to relationships between people, but also to the feelings readers might have for authors and their works. The text suggests that authors who inspire personal love in their readers might generate more varied opinions about what constitutes their best work. This is in contrast to authors who are loved 'by allowance,' or loved because it is considered the right thing to",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "100",
+        "prompt_text": "Rewrite this text in the style of a science fiction story: '_Walt Whitman has somewhere a fine and just distinction between \u201cloving\nby allowance\u201d and \u201cloving with personal love.\u201d This distinction applies\nto books as well as to men and women; and in the case of the not very\nnumerous authors who are the objects of the personal affection, it\nbrings a curious consequence with it. There is much more difference as\nto their best work than in the case of those others who are loved \u201cby\nallowance\u201d by convention, and because it is felt to be the right and\nproper th'",
+        "generated_text": "In a distant realm of thought and literature that exists within the vast cosmos of human cognition, an entity known as Walt Whitman has drawn a remarkable and precise distinction between two forms of affection. These are termed in the interstellar language as \"loving by allowance\" and \"loving with personal love.\" This differentiation, while applicable to sentient beings of any gender, extends its relevance to collections of knowledge and thought, also known as books, in this realm.\n\nThe implications of this distinction are particularly fascinating",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "200",
+        "prompt_text": "Write a continuation for this text: '_Walt Whitman has somewhere a fine and just distinction between \u201cloving\nby allowance\u201d and \u201cloving with personal love.\u201d This distinction applies\nto books as well as to men and women; and in the case of the not very\nnumerous authors who are the objects of the personal affection, it\nbrings a curious consequence with it. There is much more difference as\nto their best work than in the case of those others who are loved \u201cby\nallowance\u201d by convention, and because it is felt to be the right and\nproper th'",
+        "generated_text": "ing to do.\n\nLoving by allowance, as Whitman puts it, is an affection derived from respect, admiration, or acknowledgement of the author's skills, talents, or significance in the literary world. It is an appreciation that is intellectual rather than emotional. We may admire a writer for their command of language, for their ability to craft intricate plots, or for their insightful social commentary. We may recognize the importance of their work in the literary canon, and we may study and analyze their books with",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "2",
+        "prompt_text": "Summarize this text in 200 words: 'Alice was beginning to get very tired of sitting by her sister on the\nbank, and of having nothing to do: once or twice she had peeped into\nthe book her sister was reading, but it had no pictures or\nconversations in it, \u201cand what is the use of a book,\u201d thought Alice\n\u201cwithout pictures or conversations?\u201d\n\nSo she was considering in her own mind (as well as she could, for the\nhot day made her feel very sleepy and stupid), whether the pleasure of\nmaking a daisy-chain would be worth the trouble of gett'",
+        "generated_text": "Alice was seated beside her sister on a river bank, growing increasingly bored due to a lack of activity. She tried to engage in her sister's book, but found it uninteresting as it lacked pictures or dialogues. Alice pondered over the purpose of a book without such elements. The hot day was making her feel lethargic and dull, and she was debating with herself if crafting a daisy chain would be entertaining enough to justify the effort.",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "101",
+        "prompt_text": "Rewrite this text in the style of a science fiction story: 'Alice was beginning to get very tired of sitting by her sister on the\nbank, and of having nothing to do: once or twice she had peeped into\nthe book her sister was reading, but it had no pictures or\nconversations in it, \u201cand what is the use of a book,\u201d thought Alice\n\u201cwithout pictures or conversations?\u201d\n\nSo she was considering in her own mind (as well as she could, for the\nhot day made her feel very sleepy and stupid), whether the pleasure of\nmaking a daisy-chain would be worth the trouble of gett'",
+        "generated_text": "Alice was growing weary of the monotonous act of remaining stationary by her sibling's side on the metallic embankment, and of the void of productive or stimulating tasks. On a singular or dual occasion, she had dared to sneak a glance into the digital manuscript her sister was engrossed in, but it lacked any form of visual representation or interactive dialogue. \"And what conceivable purpose could a manuscript serve,\" Alice questioned internally, \"devoid of any visual aid or conversational exchange?\"\n\nThus",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "201",
+        "prompt_text": "Write a continuation for this text: 'Alice was beginning to get very tired of sitting by her sister on the\nbank, and of having nothing to do: once or twice she had peeped into\nthe book her sister was reading, but it had no pictures or\nconversations in it, \u201cand what is the use of a book,\u201d thought Alice\n\u201cwithout pictures or conversations?\u201d\n\nSo she was considering in her own mind (as well as she could, for the\nhot day made her feel very sleepy and stupid), whether the pleasure of\nmaking a daisy-chain would be worth the trouble of gett'",
+        "generated_text": "ing up and picking the flowers when suddenly, a white rabbit with pink eyes ran close by her. \n\nThere was nothing so very remarkable about that, nor did Alice think it so very much out of the way to hear the Rabbit say to itself, \"Oh dear! Oh dear! I shall be late!\" However, when the Rabbit actually took a watch out of its waistcoat-pocket and looked at it and then hurried on, Alice started to her feet. For it occurred to her that she had",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "3",
+        "prompt_text": "Summarize this text in 200 words: 'I. A SCANDAL IN BOHEMIA\n\n\nI.\n\nTo Sherlock Holmes she is always _the_ woman. I have seldom heard him\nmention her under any other name. In his eyes she eclipses and\npredominates the whole of her sex. It was not that he felt any emotion\nakin to love for Irene Adler. All emotions, and that one particularly,\nwere abhorrent to his cold, precise but admirably balanced mind. He\nwas, I take it, the most perfect reasoning and observing machine that\nthe world has seen, but as a lover he would have placed h'",
+        "generated_text": "Sherlock Holmes holds Irene Adler in high regard, referring to her as \"the\" woman. He does not harbor any romantic feelings for her, as his analytical and objective mind finds such emotions distasteful. Nevertheless, her presence dominates his perception of all other women. Despite Holmes's extraordinary abilities as a detective and observer, his interactions with Adler reveal that he would not excel as a lover. Holmes's perspective on Adler reflects how he values intellect and character over emotions.",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "102",
+        "prompt_text": "Rewrite this text in the style of a science fiction story: 'I. A SCANDAL IN BOHEMIA\n\n\nI.\n\nTo Sherlock Holmes she is always _the_ woman. I have seldom heard him\nmention her under any other name. In his eyes she eclipses and\npredominates the whole of her sex. It was not that he felt any emotion\nakin to love for Irene Adler. All emotions, and that one particularly,\nwere abhorrent to his cold, precise but admirably balanced mind. He\nwas, I take it, the most perfect reasoning and observing machine that\nthe world has seen, but as a lover he would have placed h'",
+        "generated_text": "I. AN ANOMALY IN THE NEBULAE\n\nI.\n\nTo Astro-detective Zephyr Xanadu, she is forever the female entity. Rarely have I heard him reference her by any other designation. In his perception, she outshines and commands the entirety of her gender. It wasn't that he experienced any sentiment resembling affection for the Cyborg, Irene Nebulae. All sentiments, especially that one, were repulsive to his frigid,",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "202",
+        "prompt_text": "Write a continuation for this text: 'I. A SCANDAL IN BOHEMIA\n\n\nI.\n\nTo Sherlock Holmes she is always _the_ woman. I have seldom heard him\nmention her under any other name. In his eyes she eclipses and\npredominates the whole of her sex. It was not that he felt any emotion\nakin to love for Irene Adler. All emotions, and that one particularly,\nwere abhorrent to his cold, precise but admirably balanced mind. He\nwas, I take it, the most perfect reasoning and observing machine that\nthe world has seen, but as a lover he would have placed h'",
+        "generated_text": "imself in a position of emotional vulnerability, a state he found thoroughly unsettling. Yet, Irene Adler, with her wit, her intelligence, and her radiant charisma, had secured a place within the confines of his rigidly analytical mind.\n\nII.\n\nIt was in the early spring of 1888 that the case involving Irene Adler came to Holmes. We were sitting by the fire in our apartment at Baker Street, when our housekeeper, Mrs. Hudson, announced the arrival of a gentleman, a client",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "4",
+        "prompt_text": "Summarize this text in 200 words: 'It is very seldom that mere ordinary people like John and myself secure\nancestral halls for the summer.\n\nA colonial mansion, a hereditary estate, I would say a haunted house,\nand reach the height of romantic felicity\u2014but that would be asking too\nmuch of fate!\n\nStill I will proudly declare that there is something queer about it.\n\nElse, why should it be let so cheaply? And why have stood so long\nuntenanted?\n\nJohn laughs at me, of course, but one expects that in marriage.\n\nJohn is practical in the '",
+        "generated_text": "The narrator discusses the rarity of ordinary people like her and her partner John acquiring ancestral homes for the summer. She dreams about living in a colonial mansion or a haunted house to reach the peak of romantic happiness, but acknowledges that this might be asking too much. She insists that there is something strange about the fact that their summer home was rented out so cheaply and had been vacant for a long time. John, being pragmatic, finds her speculations amusing, but the narrator views this as a typical marital",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "103",
+        "prompt_text": "Rewrite this text in the style of a science fiction story: 'It is very seldom that mere ordinary people like John and myself secure\nancestral halls for the summer.\n\nA colonial mansion, a hereditary estate, I would say a haunted house,\nand reach the height of romantic felicity\u2014but that would be asking too\nmuch of fate!\n\nStill I will proudly declare that there is something queer about it.\n\nElse, why should it be let so cheaply? And why have stood so long\nuntenanted?\n\nJohn laughs at me, of course, but one expects that in marriage.\n\nJohn is practical in the '",
+        "generated_text": "In the vast expanse of time and space, it is an uncommon occurrence that common earthlings like John and I acquire possession of ancient cosmic dwellings for the warm interstellar seasons.\n\nA space-age manor, an inherited stellar estate, I dare say a spectral starship, elevating us to the pinnacle of celestial bliss \u2013 but such expectations would be an overreach of cosmic alignment!\n\nYet, I assert, with my chin raised high to the starry expanse above, there is something inherently",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "203",
+        "prompt_text": "Write a continuation for this text: 'It is very seldom that mere ordinary people like John and myself secure\nancestral halls for the summer.\n\nA colonial mansion, a hereditary estate, I would say a haunted house,\nand reach the height of romantic felicity\u2014but that would be asking too\nmuch of fate!\n\nStill I will proudly declare that there is something queer about it.\n\nElse, why should it be let so cheaply? And why have stood so long\nuntenanted?\n\nJohn laughs at me, of course, but one expects that in marriage.\n\nJohn is practical in the '",
+        "generated_text": "extreme. He has no patience for superstition or fanciful stories. He sees the world in black and white, facts and figures. \n\n\"Why, dear,\" he'd say, \"The house is simply old, that's all. It's been neglected, hence the cheap price. There's no great mystery to it.\"\n\nOh, but I beg to differ. There is an air to it, a sense of history that lingers in the corners and whispers in the night. A subtle chill",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "5",
+        "prompt_text": "Summarize this text in 200 words: 'Letter 1\n\n_To Mrs. Saville, England._\n\n\nSt. Petersburgh, Dec. 11th, 17\u2014.\n\n\nYou will rejoice to hear that no disaster has accompanied the\ncommencement of an enterprise which you have regarded with such evil\nforebodings. I arrived here yesterday, and my first task is to assure\nmy dear sister of my welfare and increasing confidence in the success\nof my undertaking.\n\nI am already far north of London, and as I walk in the streets of\nPetersburgh, I feel a cold northern breeze play upon my cheeks, whic'",
+        "generated_text": "The letter is addressed to Mrs. Saville in England, and is written from St. Petersburg on December 11th in the 18th century. The writer, who is the brother of Mrs. Saville, informs her that he has arrived safely in St. Petersburg, and that no disaster has occurred at the start of his venture, despite her concerns. He also assures her of his well-being and his growing confidence in the success of his mission. He is now situated far north of London",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "104",
+        "prompt_text": "Rewrite this text in the style of a science fiction story: 'Letter 1\n\n_To Mrs. Saville, England._\n\n\nSt. Petersburgh, Dec. 11th, 17\u2014.\n\n\nYou will rejoice to hear that no disaster has accompanied the\ncommencement of an enterprise which you have regarded with such evil\nforebodings. I arrived here yesterday, and my first task is to assure\nmy dear sister of my welfare and increasing confidence in the success\nof my undertaking.\n\nI am already far north of London, and as I walk in the streets of\nPetersburgh, I feel a cold northern breeze play upon my cheeks, whic'",
+        "generated_text": "Transmission 1\n\n_To Unit Saville, Terran Sector._\n\n\nStarbase Petersburgh, Cycle 11.12, 3017.\n\n\nIt will ignite circuits of joy to download that no catastrophe has plagued the initialization of this mission which you've predicted with such ominous algorithms. My vessel docked here in the previous rotation, and my first protocol is to assure my dear sibling unit of my operational status and escalating confidence in the completion of my assignment.\n\nI am already far above the coordinates of London",
+        "model_used": "openai"
+    },
+    {
+        "prompt_id": "204",
+        "prompt_text": "Write a continuation for this text: 'Letter 1\n\n_To Mrs. Saville, England._\n\n\nSt. Petersburgh, Dec. 11th, 17\u2014.\n\n\nYou will rejoice to hear that no disaster has accompanied the\ncommencement of an enterprise which you have regarded with such evil\nforebodings. I arrived here yesterday, and my first task is to assure\nmy dear sister of my welfare and increasing confidence in the success\nof my undertaking.\n\nI am already far north of London, and as I walk in the streets of\nPetersburgh, I feel a cold northern breeze play upon my cheeks, whic'",
+        "generated_text": "h braces my nerves and fills me with delight. The hustle and bustle of the city, so different from the serene countryside of England, is invigorating. The architecture here is grand and imposing, a testament to Russia's rich past and ambitious future.\n\nThe locals are hardy and resilient, their faces weathered from the harsh winters yet warm with a welcoming spirit. They've welcomed me into their city with open arms, and I've already learned so much from them. This is a place",
+        "model_used": "openai"
+    }
+]

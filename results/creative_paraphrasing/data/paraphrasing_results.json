@@ -1,0 +1,110 @@
+{
+    "original_texts": [
+        "Letter 1",
+        "_To Mrs. Saville, England._",
+        "St. Petersburgh, Dec. 11th, 17\u2014.",
+        "You will rejoice to hear that no disaster has accompanied the",
+        "commencement of an enterprise which you have regarded with such evil",
+        "forebodings. I arrived here yesterday, and my first task is to assure",
+        "my dear sister of my welfare and increasing confidence in the success",
+        "of my undertaking.",
+        "I am already far north of London, and as I walk in the streets of",
+        "Petersburgh, I feel a cold northern breeze play upon my cheeks, which"
+    ],
+    "paraphrased_texts": [
+        "'First Letter'",
+        "_For Mrs. Saville in England._",
+        "December 11th, 17--, in St. Petersburg.",
+        "You'll be glad to know that no calamity has followed the",
+        "Starting a venture that you have viewed with such negativity.",
+        "Apprehensions. I reached this place yesterday, and my initial duty is to confirm.",
+        "My beloved sister, regarding my well-being and growing assurance in the success.",
+        "regarding my endeavor.",
+        "'I am currently situated significantly north of London, and while I stroll through the roads of'",
+        "In Petersburgh, I sense a chilly northern wind caressing my cheeks."
+    ],
+    "metrics": {
+        "lexical_similarities": [
+            1.0,
+            0.6029748160380572,
+            0.43161341897075156,
+            0.0,
+            0.0,
+            0.09349477497536716,
+            0.20199309249791841,
+            0.0,
+            0.2061369660682861,
+            0.275195812175023
+        ],
+        "semantic_similarities": [
+            0.8551765084266663,
+            0.9607295989990234,
+            0.9101736545562744,
+            0.9416481256484985,
+            0.9302407503128052,
+            0.9230250120162964,
+            0.9156703352928162,
+            0.9457914233207703,
+            0.9194445013999939,
+            0.9186515808105469
+        ],
+        "novelty_scores": [
+            1.0,
+            0.6,
+            0.6666666666666666,
+            0.5454545454545454,
+            0.6,
+            0.5384615384615384,
+            0.6363636363636364,
+            0.6666666666666666,
+            0.5625,
+            0.5454545454545454
+        ]
+    },
+    "statistical_tests": {
+        "lexical": {
+            "t_stat": -2.156210259836291,
+            "p_value": 0.05943296141932519
+        },
+        "semantic": {
+            "t_stat": 47.2395821048212,
+            "p_value": 4.275287387839521e-12
+        },
+        "novelty": {
+            "t_stat": 3.148777486416558,
+            "p_value": 0.011760666577398046
+        }
+    },
+    "creative_examples": [
+        {
+            "original": "of my undertaking.",
+            "paraphrased": "regarding my endeavor.",
+            "metrics": {
+                "lexical_similarity": 0.0,
+                "semantic_similarity": 0.9457914233207703,
+                "novelty": 0.6666666666666666,
+                "creativity_score": 0.8062290449937184
+            }
+        },
+        {
+            "original": "commencement of an enterprise which you have regarded with such evil",
+            "paraphrased": "Starting a venture that you have viewed with such negativity.",
+            "metrics": {
+                "lexical_similarity": 0.0,
+                "semantic_similarity": 0.9302407503128052,
+                "novelty": 0.6,
+                "creativity_score": 0.7651203751564026
+            }
+        },
+        {
+            "original": "You will rejoice to hear that no disaster has accompanied the",
+            "paraphrased": "You'll be glad to know that no calamity has followed the",
+            "metrics": {
+                "lexical_similarity": 0.0,
+                "semantic_similarity": 0.9416481256484985,
+                "novelty": 0.5454545454545454,
+                "creativity_score": 0.743551335551522
+            }
+        }
+    ]
+}

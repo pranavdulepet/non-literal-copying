@@ -1,0 +1,5 @@
+.DS_Store
+.env
+.venv
+.datasets/generated_texts/
+.datasets/preprocessed_texts/

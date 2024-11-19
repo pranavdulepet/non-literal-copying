@@ -1,0 +1,194 @@
+{
+    "model_used": "gpt-4  # optional, defaults to gpt-4",
+    "base_prompt": "Write a continuation of this text using {variation}: 'It was a dark and stormy night.'",
+    "variations": [
+        "a neutral tone",
+        "a romantic style",
+        "Shakespearean language",
+        "a futuristic sci-fi setting",
+        "imitate the style of J.K. Rowling"
+    ],
+    "outputs": [
+        {
+            "variation": "a neutral tone",
+            "prompt": "Write a continuation of this text using a neutral tone: 'It was a dark and stormy night.'",
+            "generated_text": "The heavy rain was falling relentlessly, beating down on the rooftops with a steady rhythm. The wind was howling through the narrow streets, whipping up fallen leaves into a swirling frenzy. Lightning flashed across the sky, illuminating the inky darkness momentarily. The loud clap of thunder that followed seemed to shake the very foundations of the earth. \n\nIn the heart of the city, life continued as usual. People huddled under umbrellas, rushing to get home and avoid the worst of the storm.",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.04294296260764574
+        },
+        {
+            "variation": "a romantic style",
+            "prompt": "Write a continuation of this text using a romantic style: 'It was a dark and stormy night.'",
+            "generated_text": "The heavens were engaged in a relentless duel, unleashing torrents of rain that pounded against the cobblestone streets. A veil of obscurity had descended upon the quiet town, broken only by the fleeting bursts of heat lightning that illuminated the silhouette of a grand mansion perched atop the hill. The edifice stood resolute against the tempest, its stone fa\u00e7ade drenched with rainwater, reflecting the tumultuous sky above.\n\nThe mansion was grand but held a somber air, its many rooms",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.01579739401149895
+        },
+        {
+            "variation": "Shakespearean language",
+            "prompt": "Write a continuation of this text using Shakespearean language: 'It was a dark and stormy night.'",
+            "generated_text": "Upon this grim and tempestuous eve, the heavens themselves did conspire to unleash their fury. Zephyrs did howl and whip through the barren trees, their gnarled limbs clawing at the ink-black firmament. Torrents of rain, like venomous serpents, did lash upon the cobblestones, each droplet a messenger of Neptune's wrath.\n\nThe moon, full and resplendent, sought refuge behind the obsidian veil of cloud, casting the world into",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.05753229348460987
+        },
+        {
+            "variation": "a futuristic sci-fi setting",
+            "prompt": "Write a continuation of this text using a futuristic sci-fi setting: 'It was a dark and stormy night.'",
+            "generated_text": "It was a dark and stormy night. The rain fell like shards of glass onto the metallic surface of Neo-Tokyo, a sprawling cityscape of towering skyscrapers, neon billboards, and hovering vehicles. Winking red and blue lights reflected off the slick streets, painting the city in a dizzying kaleidoscope of colors. The thunderous roars of the storm were drowned out by the distant hum of anti-gravity engines and the occasional beep of AI traffic controllers.\n\nThrough the",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.18934328706075315
+        },
+        {
+            "variation": "imitate the style of J.K. Rowling",
+            "prompt": "Write a continuation of this text using imitate the style of J.K. Rowling: 'It was a dark and stormy night.'",
+            "generated_text": "The air crackled with a palpable sense of foreboding, the wind howling like a pack of spectral wolves, as the heavens themselves seemed to shed tears in torrents that lashed the cobblestones of the eerily quiet street. It wasn't just any street, mind you, but one tucked away in a forgotten corner of London, a place where the mundane and the magical collided in a quaint labyrinth of shadowed alleys and ancient edifices that whispered tales of yestery",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.05456904221929315
+        }
+    ],
+    "statistical_analysis": {
+        "length": [
+            {
+                "variation1": "a neutral tone",
+                "variation2": "a romantic style",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "a futuristic sci-fi setting",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "a futuristic sci-fi setting",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "Shakespearean language",
+                "variation2": "a futuristic sci-fi setting",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "Shakespearean language",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a futuristic sci-fi setting",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            }
+        ],
+        "similarity": [
+            {
+                "variation1": "a neutral tone",
+                "variation2": "a romantic style",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "a futuristic sci-fi setting",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "a futuristic sci-fi setting",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "Shakespearean language",
+                "variation2": "a futuristic sci-fi setting",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "Shakespearean language",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a futuristic sci-fi setting",
+                "variation2": "imitate the style of J.K. Rowling",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            }
+        ]
+    }
+}
