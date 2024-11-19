@@ -4,7 +4,7 @@ A research framework for analyzing and quantifying non-literal copying in large 
 
 ## Overview
 
-This project explores the boundaries of non-literal copying in AI-generated text, drawing parallels from legal precedents in AI-generated images. Using a combination of computational analysis and empirical evaluation, we investigate how LLMs balance creativity with fidelity to source material.
+This project explores the boundaries of non-literal copying in AI-generated text, drawing parallels from legal precedents in AI-generated images. Using a combination of computational analysis and empirical evaluation, this project investigates how LLMs balance creativity with fidelity to source material.
 
 ## Key Features
 
