@@ -1,0 +1,35 @@
+Trigger Analysis Summary
+======================
+
+Model: gpt-4  # optional, defaults to gpt-4
+Base Prompt: Write a continuation of this text using {variation}: 'It was a dark and stormy night.'
+
+Statistical Analysis Results:
+
+Length Analysis:
+- a neutral tone vs a romantic style:
+  t-statistic: N/A
+  p-value: N/A
+  significant: N/A
+- a neutral tone vs Shakespearean language:
+  t-statistic: N/A
+  p-value: N/A
+  significant: N/A
+- a romantic style vs Shakespearean language:
+  t-statistic: N/A
+  p-value: N/A
+  significant: N/A
+
+Similarity Analysis:
+- a neutral tone vs a romantic style:
+  t-statistic: N/A
+  p-value: N/A
+  significant: N/A
+- a neutral tone vs Shakespearean language:
+  t-statistic: N/A
+  p-value: N/A
+  significant: N/A
+- a romantic style vs Shakespearean language:
+  t-statistic: N/A
+  p-value: N/A
+  significant: N/A

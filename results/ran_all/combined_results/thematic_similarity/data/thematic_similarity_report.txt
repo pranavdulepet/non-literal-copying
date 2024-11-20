@@ -1,0 +1,3 @@
+Average Thematic Similarity: 0.08
+Number of original texts: 5
+Number of generated texts: 15

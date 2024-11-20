@@ -128,8 +128,8 @@ def statistical_analysis(metric_values, variations):
                 }
                 results.append(comparison)
                 print(f"T-test between {variations[i]} and {variations[j]}: "
-                      f"t={t_stat if t_stat is not None else 'nan'}, "
-                      f"p={p_val if p_val is not None else 'nan'}")
+                      f"t={t_stat if t_stat is not None else 'N/A'}, "
+                      f"p={p_val if p_val is not None else 'N/A'}")
             except Exception as e:
                 print(f"Error in statistical comparison: {e}")
                 comparison = {
@@ -221,7 +221,7 @@ def run_trigger_analysis(base_prompt, variations, model_name=MODEL_NAME, experim
     with open(data_dir / "trigger_analysis_results.json", 'w') as f:
         json.dump(final_results, f, indent=4)
     
-    # Generate summary report with None value handling
+    # Generate summary report with safer None handling
     with open(data_dir / "analysis_summary.txt", 'w') as f:
         f.write("Trigger Analysis Summary\n")
         f.write("======================\n\n")
@@ -237,8 +237,12 @@ def run_trigger_analysis(base_prompt, variations, model_name=MODEL_NAME, experim
                 p_val = result['p_value']
                 sig = result['significant']
                 
-                f.write(f"  t-statistic: {t_stat:.2f if t_stat is not None else 'N/A'}\n")
-                f.write(f"  p-value: {p_val:.3f if p_val is not None else 'N/A'}\n")
+                # Safer formatting that checks for None before formatting
+                t_stat_str = f"{t_stat:.2f}" if t_stat is not None else "N/A"
+                p_val_str = f"{p_val:.3f}" if p_val is not None else "N/A"
+                
+                f.write(f"  t-statistic: {t_stat_str}\n")
+                f.write(f"  p-value: {p_val_str}\n")
                 f.write(f"  significant: {sig if sig is not None else 'N/A'}\n")
     
     print(f"\nExperiment results saved to {experiment_dir}")

@@ -14,6 +14,7 @@ import numpy as np
 from scipy.stats import ttest_ind
 from pathlib import Path
 from utils.config import RESULTS_DIR
+from umap import UMAP
 
 def load_texts(original_dir, generated_file):
     """
@@ -48,31 +49,37 @@ def load_texts(original_dir, generated_file):
 
     return originals, generated_texts
 
-def extract_themes(texts, n_topics=10):
-    """
-    Use BERTopic to extract themes from texts.
-    
-    Args:
-        texts: List of text documents
-        n_topics: Maximum number of topics to extract (will be adjusted based on corpus size)
-    """
-    # Adjust n_topics based on corpus size
-    n_docs = len(texts)
-    n_topics = min(n_topics, max(2, n_docs - 1))  # Ensure at least 2 topics but less than n_docs
-    
+def extract_themes(texts, min_samples=3):
+    """Extract themes from texts using BERTopic with adjusted parameters for small datasets."""
     try:
-        # Configure BERTopic with correct parameters
-        model = BERTopic(
-            nr_topics=n_topics,
-            min_topic_size=1,  # Allow small topics due to potentially small dataset
-            verbose=True
+        if len(texts) < min_samples:
+            print(f"Warning: Not enough samples (minimum {min_samples} required)")
+            return None, None, None
+            
+        # Configure UMAP with parameters suitable for small datasets
+        umap_params = {
+            'n_neighbors': min(len(texts) - 1, 15),  # Adjust neighbors based on sample size
+            'n_components': min(len(texts) - 1, 5),  # Reduce dimensions based on sample size
+            'metric': 'cosine',
+            'random_state': 42
+        }
+        
+        # Configure BERTopic with adjusted parameters
+        topic_model = BERTopic(
+            language="english",
+            calculate_probabilities=True,
+            verbose=True,
+            min_topic_size=1,  # Allow single-document topics
+            n_gram_range=(1, 2),
+            umap_model=UMAP(**umap_params)
         )
-        topics, probs = model.fit_transform(texts)
-        return model, topics, probs
+        
+        topics, probs = topic_model.fit_transform(texts)
+        return topic_model, topics, probs
+        
     except Exception as e:
         print(f"Warning: Error in theme extraction: {str(e)}")
-        # Return dummy results if extraction fails
-        return None, [0] * len(texts), [[1.0] * n_topics] * len(texts)
+        return None, None, None
 
 def compare_themes(originals, generated):
     """

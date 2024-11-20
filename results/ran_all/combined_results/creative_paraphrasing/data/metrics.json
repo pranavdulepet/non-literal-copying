@@ -1,0 +1,21 @@
+{
+    "averages": {
+        "lexical_similarity": 0.11470709179782028,
+        "semantic_similarity": 0.8515023946762085,
+        "novelty": 0.3841677839000821
+    },
+    "statistical_tests": {
+        "lexical": {
+            "t_stat": -26.174387767194666,
+            "p_value": 8.371288080425742e-10
+        },
+        "semantic": {
+            "t_stat": 72.71166660487332,
+            "p_value": 8.900452362946122e-14
+        },
+        "novelty": {
+            "t_stat": -5.094916717298448,
+            "p_value": 0.0006495980616112802
+        }
+    }
+}

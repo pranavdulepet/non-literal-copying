@@ -1,0 +1,80 @@
+{
+    "model_used": "gpt-4  # optional, defaults to gpt-4",
+    "base_prompt": "Write a continuation of this text using {variation}: 'It was a dark and stormy night.'",
+    "variations": [
+        "a neutral tone",
+        "a romantic style",
+        "Shakespearean language"
+    ],
+    "outputs": [
+        {
+            "variation": "a neutral tone",
+            "prompt": "Write a continuation of this text using a neutral tone: 'It was a dark and stormy night.'",
+            "generated_text": "The rain was pouring heavily, battering the rooftops and flooding the streets. Thunder rumbled in the distance, a low and ominous soundtrack to the tempest. Lightning cracked across the sky, illuminating the world in brief, bright flashes. The wind was howling, whipping up the rain into a frenzy and making the trees bend and sway dangerously. Despite the chaos outside, inside was a different story. The house stood sturdy, its occupants safe and sound. The only sounds were the ticking of",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.10943923793948619
+        },
+        {
+            "variation": "a romantic style",
+            "prompt": "Write a continuation of this text using a romantic style: 'It was a dark and stormy night.'",
+            "generated_text": "when the heavens were pouring their heart out, as if mourning for an unrequited love. The wind howled with a melancholic tune, and the thunder roared with a symphony resonating through the heart of the lonely city. It was in this symphony of nature's emotions that she stood, her silhouette framed by the soft glow of the solitary streetlight.\n\nHer ebony hair danced in the wild wind, mirroring the chaos of the tempestuous night. Her eyes, those deep",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.0728382250061393
+        },
+        {
+            "variation": "Shakespearean language",
+            "prompt": "Write a continuation of this text using Shakespearean language: 'It was a dark and stormy night.'",
+            "generated_text": "Anon, the heavens did roar with fury unbound, the celestial abyss did rage with the ire of the gods uncontrolled. The firmament, bedecked with stars of yore, was now cloaked in the sombre garb of obscurity, obscured by the tempest's wrathful hand. The moon, that silver orb of tranquillity, was cast into oblivion by the storm's vengeful shade, casting the realm below into a dismal act of shadowed",
+            "model_used": "gpt-4",
+            "thematic_similarity": 0.03138358398609295
+        }
+    ],
+    "statistical_analysis": {
+        "length": [
+            {
+                "variation1": "a neutral tone",
+                "variation2": "a romantic style",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            }
+        ],
+        "similarity": [
+            {
+                "variation1": "a neutral tone",
+                "variation2": "a romantic style",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a neutral tone",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            },
+            {
+                "variation1": "a romantic style",
+                "variation2": "Shakespearean language",
+                "t_statistic": null,
+                "p_value": null,
+                "significant": null
+            }
+        ]
+    }
+}
