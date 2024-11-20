@@ -17,7 +17,8 @@ This project explores the boundaries of non-literal copying in AI-generated text
 ## Installation
 
 1. Clone the repository
-2. Install dependencies:
+2. Ensure Python 3.10+
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
