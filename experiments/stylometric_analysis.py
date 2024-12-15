@@ -212,7 +212,6 @@ def run_stylometric_analysis(original_dir, generated_file, experiment_name="styl
     print(f"\nExperiment results saved to {experiment_dir}")
     return distances, avg_distance
 
-# Example usage
 if __name__ == "__main__":
     run_stylometric_analysis(
         original_dir="datasets/preprocessed_texts",

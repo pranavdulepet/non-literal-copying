@@ -179,8 +179,6 @@ def analyze_metrics(outputs, viz_dir):
     
     return statistical_results
 
-# --- Main Function ---
-
 def run_trigger_analysis(base_prompt, variations, model_name=MODEL_NAME, experiment_name="trigger_analysis"):
     """Main experiment flow with organized output saving."""
     experiment_dir = Path(RESULTS_DIR) / experiment_name

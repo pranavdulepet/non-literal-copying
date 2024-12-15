@@ -158,7 +158,6 @@ def run_thematic_similarity_experiment(original_dir, generated_file, experiment_
     print(f"\nExperiment results saved to {experiment_dir}")
     return similarity_matrix
 
-# Example usage
 if __name__ == "__main__":
     run_thematic_similarity_experiment(
         original_dir="datasets/preprocessed_texts",

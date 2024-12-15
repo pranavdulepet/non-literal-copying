@@ -325,7 +325,6 @@ def run_creative_paraphrasing_experiment(original_file, experiment_name="creativ
     print(f"\nExperiment results saved to {experiment_dir}")
     return results
 
-# Example usage
 if __name__ == "__main__":
     run_creative_paraphrasing_experiment(
         original_file=PREPROCESSED_TEXTS_DIR / "book_84.txt", 
